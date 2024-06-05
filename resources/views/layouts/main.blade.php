@@ -137,7 +137,7 @@
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                     data-accordion="false">
                     <li class="nav-item">
-                        <a href="pages/gallery.html" class="nav-link">
+                        <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-shopping-bag"></i>
                             <p>
                                 Заказы
@@ -145,7 +145,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="pages/gallery.html" class="nav-link">
+                        <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-tshirt"></i>
                             <p>
                                 Продукты
@@ -161,7 +161,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="pages/gallery.html" class="nav-link">
+                        <a href="{{ route('tag.index') }}" class="nav-link">
                             <i class="nav-icon fas fa-tags"></i>
                             <p>
                                 Теги
@@ -169,7 +169,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="pages/gallery.html" class="nav-link">
+                        <a href="{{ route('color.index') }}" class="nav-link">
                             <i class="nav-icon fas fa-palette"></i>
                             <p>
                                 Цвета
@@ -177,7 +177,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="pages/gallery.html" class="nav-link">
+                        <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-users"></i>
                             <p>
                                 Пользователи
